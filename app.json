@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/weekly/weekly",
+    "pages/about/about"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "movieWeekly",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "每周推荐",
+        "pagePath": "pages/weekly/weekly",
+        "iconPath": "images/icons/biz.png",
+        "selectedIconPath":  "images/icons/biz.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/icons/biz2.png",
+        "selectedIconPath":  "images/icons/biz2.png"
+      }
+    ],
+    "color" : "#000",
+    "selectedColor": "#00f"
+  }
+}

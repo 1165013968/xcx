@@ -1,0 +1,7 @@
+<!--pages/weekly/weekly.wxml-->
+<view>
+  <text>每周推荐电影详情</text>
+  <text> {{thisWeekMovie.name}}</text>
+  <text>{{count}}</text>
+  <button bindtap="f0">+1</button>
+</view>

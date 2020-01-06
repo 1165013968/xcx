@@ -1,0 +1,11 @@
+<view class="content">
+  <image src="/images/m2.jpeg" class="about-banner"></image>
+  <text>电影周周看</text>
+  <view>
+    <navigator style="display:inline;" url='/pages/weekly/weekly' open-type="switchTab" hover-class="nav-hover" class="default-nav">每周推荐</navigator>
+    <text>一部好片</text>
+  </view>
+
+  <text>我的微博： weibo.com/image/test</text>
+
+</view>
